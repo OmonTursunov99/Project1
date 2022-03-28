@@ -1,0 +1,55 @@
+$blue: #1C84FF;
+$border_color: #E6E6E9;
+$blue_hover: #2C94FF;
+$blue_light: #A0CCFF;
+$text_color: #80808D;
+$red: #F30B43;
+$red_light: #FEECF0;
+$orange: #FF6652;
+$orange_light: #FFE8E5;
+$warning: #F3AB1E;
+$warning_light: #FDF3DE;
+$black: #01001B;
+$white: #fff;
+$light: #F4F5F8;
+$inter: 'Inter', sans-serif;
+$transition: 500ms;
+$spacer: 24px;
+$size-xxs: 14px;
+$size-xs: 16px;
+$size-sm: 18px;
+$size-md: 20px;
+$size-lg: 24px;
+$size-xl: 28px;
+$size-xxl: 32px;
+$size-bs: 40px;
+$size-xb: 48px;
+$input_height: 48px;
+
+
+@mixin ulMixin {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style-type: none;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  
+  50% {
+    opacity: 1;
+  }
+  
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
